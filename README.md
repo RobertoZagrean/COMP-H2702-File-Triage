@@ -18,13 +18,13 @@ Python tool for COMP H2702 Scenario C: File Triage & Hash Analysis.
 ## How to run
 ```bash
 # Default: looks for ./samples and ./hashes_reference.csv
-python file_triage.py
+python file_triage_final.py
 
 # Specify a different folder
-python file_triage.py /path/to/your/files
+python file_triage_final.py /path/to/your/files
 
 # Custom reference and output directory
-python file_triage.py samples --reference hashes_reference.csv --output reports
+python file_triage_final.py samples --reference hashes_reference.csv --output reports
 ```
 
 ## Output
